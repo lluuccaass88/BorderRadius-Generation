@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 38px;
+}
+
+.container{
+    margin: auto;
+    width: 32%;
+    display: flex; 
+    justify-content: space-between;   
+}
+
+.codigo{
+    color: black;
+    width: 25%;
+    background-color: white;
+    margin: 20px auto auto auto;
+    padding: 15px;
+}
