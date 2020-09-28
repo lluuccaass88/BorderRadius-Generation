@@ -13,15 +13,10 @@ export default class borderRadiusGeneration extends Component {
             bottomLeft: 0,
             all:0,
         }
-        //this.mudatopLeft = this.mudatopLeft.bind(this); //passando o objeto this para ele poder ser acessado pela função mudaTopLeft
     }
     
-    
-
-
     render(){
      
-
         const box ={
             margin: 'auto',
             backgroundImage: 'linear-gradient(to top, #a100e0, #f04313)',
@@ -34,8 +29,6 @@ export default class borderRadiusGeneration extends Component {
             borderBottomLeftRadius: `${this.state.bottomLeft}` + 'px',
             borderRadius:`${this.state.all}` + 'px'
         };  
-
-        
 
         return( //Cada componente retorna só uma div
             <div className="borderRadiusGeneration">
